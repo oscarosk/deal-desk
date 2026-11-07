@@ -1,0 +1,26 @@
+{
+  "_note": "Fictional company and prices, made up for the Flip the Switch demo.",
+  "company": "Lumen Analytics",
+  "currency": "USD",
+  "plans": {
+    "starter":    { "list_per_seat_year": 240, "cost_per_seat_year": 60 },
+    "growth":     { "list_per_seat_year": 480, "cost_per_seat_year": 110 },
+    "enterprise": { "list_per_seat_year": 900, "cost_per_seat_year": 230 }
+  },
+  "volume_discount_pct": [
+    { "min_seats": 100, "pct": 5 },
+    { "min_seats": 500, "pct": 10 }
+  ],
+  "term_discount_pct": { "12": 0, "24": 5, "36": 8 },
+  "extra_discount_limit_pct": {
+    "rep": 5,
+    "sales_manager": 10,
+    "finance_lead": 25
+  },
+  "margin_floor_pct": 65,
+  "counter_buffer_pct": 2,
+  "payment_terms": {
+    "standard": ["net30"],
+    "finance_lead": ["net45", "net60"]
+  }
+}

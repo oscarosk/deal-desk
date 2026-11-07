@@ -1,0 +1,15 @@
+{
+  "_note": "Fictional customer and deal for the demo.",
+  "deal_id": "D-1042",
+  "customer": "Northwind Logistics",
+  "rep": "priya",
+  "plan": "enterprise",
+  "seats": 300,
+  "term_months": 12,
+  "discount_pct": 35,
+  "payment_terms": "net60",
+  "requested_clauses": [
+    "Vendor's liability under this agreement shall be unlimited.",
+    "Customer may terminate for convenience at any time with a pro-rata refund."
+  ]
+}
